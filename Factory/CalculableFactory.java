@@ -6,7 +6,7 @@ import ResultWorkJava.Model.ComplexNumber;
 import Seminar4.Calculator;
 
 public class CalculableFactory implements ICalculableFactory {
-    publicS Calculable create(ComplexNumber primaryArg){
+    public Calculable create(ComplexNumber primaryArg){
         return new ComplexCalculator(primaryArg);
     }
 }
